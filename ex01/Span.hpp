@@ -18,7 +18,7 @@ public:
 
 	void addNumber(int number);
 
-	int shortestSpan() const;
+	[[nodiscard]] int shortestSpan() const;
 
-	int longestSpan();
+	[[nodiscard]] int longestSpan() const;
 };

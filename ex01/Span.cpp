@@ -41,7 +41,7 @@ int Span::shortestSpan() const {
 	return shortest;
 }
 
-int Span::longestSpan() {
+int Span::longestSpan() const {
 	if (_numbers.size() < 2) {
 		throw std::logic_error("Not enough numbers to find a span");
 	}
